@@ -13,7 +13,8 @@ function App() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: cyan[50],
+        main: cyan[700],
+        main1: '#000000',
       },
       secondary: {
         main: '#f44336',
@@ -25,7 +26,7 @@ function App() {
     <>
     <ThemeProvider theme={theme}>
       <Navbar />
-      <Swiper />
+      {/* <Swiper /> */}
     </ThemeProvider>
     </>
   )

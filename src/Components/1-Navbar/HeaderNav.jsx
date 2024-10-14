@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 export default function HeaderNav() {
   return (
     <>
-    <Box sx={{ flexGrow: 1, bgcolor: 'secondary.main'}}>
+    <Box sx={{ flexGrow: 1, bgcolor: 'secondar'}}>
       <Container maxWidth="lg" style={{ height:"30px"}} >
 
         <Grid container spacing={2} justifyContent={'space-between'}>
